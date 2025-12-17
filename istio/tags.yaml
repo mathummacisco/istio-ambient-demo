@@ -18,7 +18,7 @@ spec:
       - CreateNamespace=true
   source:
     path: tag-chart
-    repoURL: '{repo-placeholder}'
+    repoURL: 'https://github.com/mathummacisco/istio-ambient-demo'
     targetRevision: HEAD
     helm:
       valuesObject:
