@@ -7,7 +7,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    name: ambient-cluster
+    name: in-cluster
     namespace: ambient
   source:
     path: application

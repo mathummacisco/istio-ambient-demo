@@ -29,7 +29,7 @@ spec:
         targetRevision: HEAD
         ref: values
       destination:
-        name: ambient-cluster
+        name: in-cluster
         namespace: istio-system
       syncPolicy:
         automated:
